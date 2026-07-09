@@ -8,4 +8,5 @@ app.get('/', (req, res) => {
     res.status(200).json({ message: 'API is running...' });
 });
 app.use('/api/plant', require('./routes/plant.routes'));
+app.use('/api/auth', require('./routes/auth.routes'));
 module.exports = app;

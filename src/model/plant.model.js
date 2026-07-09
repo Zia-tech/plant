@@ -1,4 +1,4 @@
-const { partialDeepStrictEqual } = require('assert');
+
 const mongoose = require('mongoose');
 
 const plantSchema = new mongoose.Schema({
